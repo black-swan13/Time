@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0f3460; /* Royal Blue background */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 30px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+header ul li a.active, header ul li a:hover {
+    color: #f0a500; /* Amber hover effect */
+}
+
+.hero-text {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center; /* Centering the text horizontally */
+    color: #f0a500; /* Amber text for hero section */
+}
+
+.hero-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em; /* Bold Crimson Red color: #e94560;heading */
+    color: #e94560; /* Bold Amber heading */
+}
+
+    
+
+.hero-button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #4ecca3; /* Turquoise Green on hover */
+}
+
+.main-content {
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #d3d3d3; /* Light Gray for main content */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1a1a2e;
+    margin-bottom: 15px;
+}
+
+.main-content h3 {
+    color: #16213e; /* Midnight Blue sub-headings */
+}
+
+.tips li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.todo-text {
+    font-size: 1em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #0f3460; /* Royal Blue for the footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-media a {
+    color: #e94560; /* Crimson Red for social media icons */
+}
+
+.social-media a:hover {
+    color: #f0a500; /* Amber hover effect for social icons */
+}

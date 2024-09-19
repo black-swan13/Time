@@ -19,11 +19,11 @@ body {
     flex: 1; /* Takes less space for images */
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 50px;
 }
 
 .side-photo {
-    width: 50%;
+    width: 75%;
     max-width: 100px;
     border-radius: 8px; /* Optional: for rounded corners */
 }

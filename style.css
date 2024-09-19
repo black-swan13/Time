@@ -5,6 +5,28 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text-content {
+    flex: 3; /* Takes more space for the text */
+}
+
+.image-content {
+    flex: 1; /* Takes less space for images */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side-photo {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px; /* Optional: for rounded corners */
+}
 
 header {
     background-color: #0f3460; /* Royal Blue background */

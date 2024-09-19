@@ -8,7 +8,7 @@ body {
 .content-wrapper {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 11px;
 }
 
 .text-content {

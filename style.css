@@ -23,7 +23,7 @@ body {
 }
 
 .side-photo {
-    width: 75%;
+    width: 95%;
     max-width: 400px;
     border-radius: 8px; /* Optional: for rounded corners */
 }

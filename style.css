@@ -133,11 +133,6 @@ header ul li a.active, header ul li a:hover {
     bottom: 0;
     width: 100%;
 }
-
-.social-media a {
-    color: #e94560; /* Crimson Red for social media icons */
-}
-
 .social-media a:hover {
     color: #f0a500; 
 }

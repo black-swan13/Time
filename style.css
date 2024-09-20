@@ -25,7 +25,7 @@ body {
 
 .side-photo {
     width: 95%;
-    max-width: 616px;
+    max-width: 656px;
     border-radius: 8px; /* Optional: for rounded corners */
 }
 
@@ -95,7 +95,7 @@ header ul li a.active, header ul li a:hover {
     max-width: 800px;
     text-align: left;
     margin: 0 auto;
-    background-color: #d3d3d3; /* Light Gray for main content */
+    background-color: fff; /*#d3d3d3 Light Gray for main content */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

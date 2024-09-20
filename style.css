@@ -103,10 +103,12 @@ header ul li a.active, header ul li a:hover {
     font-family: 'Poppins', sans-serif;
     color: #1a1a2e;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .main-content h3 {
     color: #16213e; /* Midnight Blue sub-headings */
+    text-align: center;
 }
 
 .tips li {

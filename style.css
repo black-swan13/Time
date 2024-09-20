@@ -20,7 +20,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    max-width: 616px;
+    max-width: 676px;
+    align: center;
 }
 
 .side-photo {

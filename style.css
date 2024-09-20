@@ -112,6 +112,13 @@ header ul li a.active, header ul li a:hover {
     color: #16213e; /* Midnight Blue sub-headings */
     text-align: center;
 }
+/* Assuming the text box is a div */
+.text-box {
+  width: 80%; /* Set the width of the box */
+  margin: 0 auto; /* This will center it horizontally */
+  padding: 20px; /* Optional padding for inside spacing */
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
 
 .tips li {
     font-size: 1.1em;

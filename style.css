@@ -92,7 +92,7 @@ header ul li a.active, header ul li a:hover {
 }
 
 .main-content {
-    padding: 29px;
+    padding: 20px;
     max-width: 700px;
     text-align: left;
     margin: 0 auto;
@@ -114,9 +114,9 @@ header ul li a.active, header ul li a:hover {
 }
 /* Assuming the text box is a div */
 .text-box {
-  width: 90%; /* Set the width of the box */
+  width: 80%; /* Set the width of the box */
   margin: 0 auto; /* This will center it horizontally */
-  padding: 28px; /* Optional padding for inside spacing */
+  padding: 20px; /* Optional padding for inside spacing */
   box-sizing: border-box; /* Ensures padding doesn't affect the width */
 }
 

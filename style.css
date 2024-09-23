@@ -1,14 +1,18 @@
+html, body {
+    height: 100%; /* Ensures the body takes full height */
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stacks children (content and footer) vertically */
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #333333; /* Fixed background color */
+    background-color: #333333; /* Dark grey background */
     color: #333;
-    overflow-y: auto;
-
 }
 
 .content-wrapper {
+    flex: 1; /* This makes the content wrapper take the remaining space */
     display: flex;
     justify-content: space-between;
     gap: 11px;
@@ -99,7 +103,7 @@ header ul li a.active, header ul li a:hover {
     max-width: 700px;
     text-align: left;
     margin: 0 auto;
-    background-color: #d3d3d3; /* Fixed hex color format */
+    background-color: #d3d3d3; /* Light Gray for main content */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow-wrap: break-word; /* Ensures long words wrap */
@@ -141,11 +145,8 @@ header ul li a.active, header ul li a:hover {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: relative;
-    bottom: 0;
     width: 100%;
-}
-
+    position: relative; /* Makes the footer position relative */
 }
 
 /* Responsive layout adjustments for small screens */

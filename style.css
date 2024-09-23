@@ -139,9 +139,11 @@ header ul li a.active, header ul li a:hover {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
 }
 
 /* Responsive layout adjustments for small screens */

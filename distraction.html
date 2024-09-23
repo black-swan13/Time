@@ -15,7 +15,13 @@
             <li><a href="management.html">Management</a></li>
             <li><a href="inquiry.html">Inquiry</a></li>
         </ul>
-       
+        <header/>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Distraction Management</h1>
+                <p>Achieve more with effective time management techniques.</p>
+                <a href="management.html" class="hero-button">Learn More</a>
+            </div>
 <main>
     <section class="main-content">
        </div>
@@ -33,47 +39,8 @@
         <p class="p2">✓<b> Create a focused environment:</b> Arrange your workspace to be conducive to concentration, which may include noise-canceling headphones, organized desk space, or ambient lighting.</p>
         <p class="p2">✓<b>Practice mindfulness:</b> Techniques such as meditation and deep-breathing exercises can help center your mind and improve your ability to focus on tasks.</p>
         <p class="p2">✓<b> Stay disciplined:</b> Develop the habit of adhering to a structured schedule and resisting the urge to multitask, which can often lead to reduced efficiency.</p>
-       
-        <p><b> Using the task manager on the right side of the page help in managing time and avoiding distractions</b></p>
-         <div class="hero-image">
-            <div class="hero-text">
-                <h1>Distraction Management</h1>
-                <p>Achieve more with effective time management techniques.</p>
-                <a href="management.html" class="hero-button">Learn More</a>
-            </div>
-        </div>
-    </header>
-    <div id="task-manager">
-  <input type="text" id="new-task" placeholder="Add new task">
-  <button onclick="addTask()">Add Task</button>
-  <ul id="task-list"></ul>
-</div>
-
-<script>
-  function addTask() {
-    const taskInput = document.getElementById("new-task").value;
-    if (taskInput === "") return;
-
-    const li = document.createElement("li");
-    li.textContent = taskInput;
-    
-    // Add delete button
-    const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "Delete";
-    deleteBtn.onclick = function () {
-      this.parentElement.remove();
-    };
-    
-    li.appendChild(deleteBtn);
-    document.getElementById("task-list").appendChild(li);
-    
-    // Clear input field
-    document.getElementById("new-task").value = "";
-  }
-</script>
         <h3><b>Understanding the Impact of Distractions</b></h3>
         <p>Distractions can significantly hinder your ability to achieve your goals. Studies show that it can take up to 25 minutes to regain focus after a distraction. This constant shift in attention not only reduces productivity but also increases stress levels. By understanding the root causes of your distractions, you can take proactive steps to minimize their impact.</p>
-
         <h3><b>Long-Term Benefits of Managing Distractions</b></h3>
         <p>By effectively managing distractions, you can achieve a more balanced and productive workday. This not only helps you accomplish your tasks more efficiently but also frees up time for other activities, contributing to a better work-life balance. Over time, you'll find that you can focus more deeply and for longer periods, leading to improved performance and greater satisfaction in your work.</p>
      </section>

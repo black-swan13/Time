@@ -2,9 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:333333;
+    background-color: #333333; /* Fixed background color */
     color: #333;
 }
+
 .content-wrapper {
     display: flex;
     justify-content: space-between;
@@ -13,6 +14,7 @@ body {
 
 .text-content {
     flex: 3; /* Takes more space for the text */
+    min-width: 300px; /* Ensures text content doesn’t shrink too much */
 }
 
 .image-content {
@@ -26,7 +28,6 @@ body {
 
 .side-photo {
     width: 95%;
-
     border-radius: 8px; /* Optional: for rounded corners */
 }
 
@@ -73,7 +74,7 @@ header ul li a.active, header ul li a:hover {
 
 .hero-text h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5em; /* Bold Crimson Red color: #e94560;heading */
+    font-size: 2.5em; /* Bold Crimson Red color: #e94560; heading */
     color: #e94560; /* Bold Amber heading */
 }
 
@@ -96,9 +97,10 @@ header ul li a.active, header ul li a:hover {
     max-width: 700px;
     text-align: left;
     margin: 0 auto;
-    background-color: d3d3d3; /*#d3d3d3 Light Gray for main content */
+    background-color: #d3d3d3; /* Fixed hex color format */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word; /* Ensures long words wrap */
 }
 
 .main-content h2 {
@@ -112,12 +114,13 @@ header ul li a.active, header ul li a:hover {
     color: #16213e; /* Midnight Blue sub-headings */
     text-align: center;
 }
-/* Assuming the text box is a div */
+
 .text-box {
-  width: 80%; /* Set the width of the box */
-  margin: 0 auto; /* This will center it horizontally */
-  padding: 20px; /* Optional padding for inside spacing */
-  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    width: 80%; /* Set the width of the box */
+    margin: 0 auto; /* This will center it horizontally */
+    padding: 20px; /* Optional padding for inside spacing */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    overflow-wrap: break-word; /* Ensures long words wrap */
 }
 
 .tips li {
@@ -141,3 +144,14 @@ header ul li a.active, header ul li a:hover {
     width: 100%;
 }
 
+/* Responsive layout adjustments for small screens */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column; /* Stack content on top of each other */
+        align-items: center;
+    }
+
+    .text-content, .image-content {
+        width: 100%; /* Take full width on small screens */
+    }
+}

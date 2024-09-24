@@ -13,9 +13,6 @@ body {
     background-color:#fffff; /* Change this to your desired color */
     
 }
-
-}
-
 .content-wrapper {
     flex: 1; /* This makes the content wrapper take the remaining space */
     display: flex;
